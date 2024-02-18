@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 92px;
+    position: relative;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* Nav bar section */
+#nav_bar {
+    float: right;
+}
+
+#nav_bar li {
+    display: inline-block;
+    padding: 8px;
+}
+
+#nav_bar #sign_in {
+    background: #4887ef;
+    margin-right: 25px;
+    padding: 7px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.nav_link {
+    color: #404040;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li.nav-link a:hover {
+    text-decoration: underline;
+}
+
+#sign_in {
+    color: white;
+}
+
+#sign_in:hover {
+    box-shadow: 1px 1px 5px #999;
+}
+
+/* Google logo and search area */
+ .google #google_logo {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding-top: 112px;
+    padding-bottom: 20px;
+ }
+
+ #form_search {
+    line-height: 32px;
+    width: 450px;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+ }
+
+ .form {
+    text-align: center;
+    margin-top: 20px;
+ }
+
+ .form #form_search {
+    padding: 0 8px;
+ }
+
+ .lower_buttons {
+    text-align: center;
+    margin-bottom: 300px;
+    padding-top: 30px;
+ }
+
+ /* footer sectio */
+
+ footer {
+    background: white;
+    border-top: solid 2px #e4e4e4;
+    bottom: 0;
+    padding-top: 30px;
+    width: 100%;
+ }
+
+ footer ul {
+    float: left;
+    padding: 1px 0;
+ }
+
+ footer ul a:hover {
+    text-decoration: underline;
+ }
+
+ .footer_right {
+    float: right;
+ }
