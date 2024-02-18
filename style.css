@@ -6,7 +6,7 @@ body {
 
 .header {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
     max-height: 92px;
     position: relative;
@@ -14,6 +14,8 @@ body {
 
 ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -24,12 +26,11 @@ ul {
 
 #nav_bar li {
     display: inline-block;
-    padding: 8px;
+    margin-right: 25px;
 }
 
 #nav_bar #sign_in {
     background: #4887ef;
-    margin-right: 25px;
     padding: 7px 15px;
     border-radius: 3px;
     font-weight: bold;
@@ -37,12 +38,9 @@ ul {
 
 .nav_link {
     color: #404040;
+    text-decoration: none;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
 
 li.nav-link a:hover {
     text-decoration: underline;
@@ -59,48 +57,54 @@ li.nav-link a:hover {
 /* Google logo and search area */
  .google #google_logo {
     text-align: center;
-    display: block;
-    margin: 0 auto;
-    padding-top: 112px;
-    padding-bottom: 20px;
+    margin-top: 20px;
  }
 
  #form_search {
     line-height: 32px;
     width: 450px;
-    padding: 20px 10px;
+    padding: 10px;
     margin-bottom: 20px;
  }
 
  .form {
     text-align: center;
-    margin-top: 20px;
- }
-
- .form #form_search {
-    padding: 0 8px;
  }
 
  .lower_buttons {
     text-align: center;
-    margin-bottom: 300px;
-    padding-top: 30px;
+    margin-bottom: 20px;
  }
 
- /* footer sectio */
+
+ /* footer section */
 
  footer {
     background: white;
     border-top: solid 2px #e4e4e4;
-    bottom: 0;
-    padding-top: 30px;
-    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    clear: both;
  }
 
  footer ul {
-    float: left;
-    padding: 1px 0;
+    margin: 0;
+    padding: 0;
  }
+
+ footer ul li {
+    display: incline;
+    margin-right: 20px;
+ }
+
+ footer ul li:last-child {
+    margin-right: 0;
+ }
+
+footer ul a {
+    color: #404040;
+    text-decoration: none;
+}
 
  footer ul a:hover {
     text-decoration: underline;
