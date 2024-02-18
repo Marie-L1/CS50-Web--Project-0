@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    min-height: 100vh;
 }
 
 .header {
@@ -55,8 +56,14 @@ li.nav-link a:hover {
 }
 
 /* Google logo and search area */
- .google #google_logo {
-    text-align: center;
+.google {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+.google #google_logo {
     margin-top: 20px;
  }
 
@@ -87,29 +94,4 @@ li.nav-link a:hover {
     clear: both;
  }
 
- footer ul {
-    margin: 0;
-    padding: 0;
- }
-
- footer ul li {
-    display: incline;
-    margin-right: 20px;
- }
-
- footer ul li:last-child {
-    margin-right: 0;
- }
-
-footer ul a {
-    color: #404040;
-    text-decoration: none;
-}
-
- footer ul a:hover {
-    text-decoration: underline;
- }
-
- .footer_right {
-    float: right;
- }
+ 
