@@ -17,8 +17,8 @@ body {
 /* Nav bar section */
 #nav_bar {
     list-style: none;
-    padding: none;
-    margin: none;
+    padding: 0;
+    margin: 0;
 }
 
 #nav_bar li {
@@ -28,6 +28,7 @@ body {
 
 #nav_bar li:first-child {
     margin-left: auto;
+    margin-right: auto;
 }
 
 #nav_bar li a {
@@ -40,7 +41,7 @@ body {
 }
 
 #sign_in {
-    background-color: #4285f4;
+    background-color: #4285f4; /* sign-in button colour */
     color: white;
     padding: 8px 16px;
     border-radius: 4px;
@@ -50,7 +51,7 @@ body {
 /* Google logo and search area */
 .google {
     text-align: center;
-    padding: 50px 0;
+    padding: 20vh 0;
  }
 
 .google #google_logo {
@@ -59,6 +60,7 @@ body {
 
  .form {
     margin-bottom: 20px;
+    text-align: center;
  }
 
  #form_search {
@@ -71,6 +73,7 @@ body {
 
  .lower_buttons {
     margin-bottom: 20px;
+    text-align: center;
  }
 
 
