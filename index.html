@@ -32,10 +32,19 @@
                 </form>  
             </div>
 
-            <!-- Lower buttons -->
+            <!-- Lower buttons, google search button and I'm feeling lucky -->
             <div class="lower_buttons">
-                <input type="submit" value="Google Search" id="google_search">
-                <input type="submit" value="I'm Feeling Lucky" id="feeling_lucky">
+                <button action="https://www.google.com/search" method="GET">
+                    <input type="hidden" name="btnI" value="1"> <!-- the 1 for the btnl is the way to get to the first thing on google search, literally so hard to figure out-->
+                    <input type="text" name="q">
+                    <input type="submit" value="Google Search">
+                    <input type="submit" value="I'm Feeling lucky" name="btnI" id="feeling_lucky">
+                </button>
+                <button action="/index.html" method="GET">
+                    <input type="text" name="q">
+                    <input type="submit" value="Google Search" id="google_search">
+                </button>
+
             </div>
 
             <!-- Basic footer with no links-->
