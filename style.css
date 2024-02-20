@@ -11,7 +11,6 @@ body {
     align-items: center;
     padding: 20px;
     background-color: #ffffff;
-    border-bottom: 1px solid #dadce0;
 }
 
 /* Nav bar section */
@@ -33,7 +32,7 @@ body {
 #nav_bar li a {
     text-decoration: none;
     color: #3c4043;
-    padding: 12px 16px;
+    padding: 10px 12px;
     border-radius: 4px;
     background-color: transparent;
     transition: background-color 0.3s;
@@ -48,7 +47,7 @@ body {
 #sign_in {
     background-color: #4285f4; /* sign-in button colour */
     color: white;
-    padding: 4px 8px;
+    padding: 8px 12px;
     border-radius: 4px;
     text-decoration: none;
     display: inline-block;
