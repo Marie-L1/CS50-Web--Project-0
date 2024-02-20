@@ -157,7 +157,15 @@ fieldset {
     font-size: 14px;
 }
 
-#exampl span {
+#example span {
     font-family: Roboto-thin, sans-serif;
     font-weight: normal;
+}
+
+#advanced_button {
+    background-color: #1669F2; 
+    border: 12px 16px;
+    border-color: hidden;
+    color: #ffffff;
+    text-align: center;
 }
