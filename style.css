@@ -136,36 +136,49 @@ h2#advanced_title {
     padding: 10px;
     font-weight: normal;
     margin-top: 20px;
+    font-weight: normal;
     font-size: 24px;
 }
 
 #advanced_form {
     margin: 20px 0;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
 }
 
 fieldset {
     border: none;
+    margin-bottom: 20px;
 }
 
 #search_examples {
     list-style: none;
     padding: 0;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 #search_examples #example {
     margin-bottom: 10px;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 #example span {
     font-family: Roboto-thin, sans-serif;
     font-weight: normal;
+    margin-left: 10px;
 }
 
 #advanced_button {
     background-color: #1669F2; 
     border: 12px 16px;
-    border-color: hidden;
+    border-color: #1669F2;
     color: #ffffff;
     text-align: center;
 }
