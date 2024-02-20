@@ -159,8 +159,8 @@ fieldset {
 
 #search_examples {
     position: absolute;
-    top: 100px;
-    right: 20px;
+    top: 160px;
+    right: 40px;
 }
 
 #search_examples #example {
@@ -182,8 +182,6 @@ fieldset {
     text-align: center;
 }
 
-ul.no-bullet {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+ul {
+    list-style: none;
 }
