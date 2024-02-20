@@ -76,7 +76,11 @@ body {
     width: 450px;
     padding: 10px;
     border-radius: 24px;
-    border: 1 px solid #dfe1e5;
+    border: 1 px solid #dadce0;
+    border-top-color: #dadce0;
+    border-bottom: #dadce0;
+    border-left-color: #dadce0;
+    border-right-color: #dadce0;
     outline: none;
     margin: 0 auto;
  }
