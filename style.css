@@ -128,3 +128,36 @@ footer ul li a {
 footer ul li a:hover {
     text-decoration: underline;
 }
+
+/* advanced search */
+
+h2#advanced_title {
+    color: red;
+    padding: 10px;
+    font-weight: normal;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+#advanced_form {
+    margin: 20px 0;
+}
+
+fieldset {
+    border: none;
+}
+
+#search_examples {
+    list-style: none;
+    padding: 0;
+}
+
+#search_examples #example {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+#exampl span {
+    font-family: Roboto-thin, sans-serif;
+    font-weight: normal;
+}
