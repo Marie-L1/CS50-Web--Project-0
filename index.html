@@ -23,20 +23,29 @@
                 <img alt="Google photo" height="92" src="https://www.google.ca/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width="272">
                 </a></div>
 
-        <!-- Google Search button, both the lower_button and image icon -->
+        <!-- Google Search button- just the image one -->
             <div class="form">
                 <form action="https://www.google.com/search" autocomplete="off" method="GET" role="search">
                     <label for="form_search"></label>
                     <input type="text" name="q" id="form_search">
                     <!-- Image Search button on the side -->
                     <input type="image" src="https://play-lh.googleusercontent.com/pY0nNax_PkBoQ5jyqLjF8LA07CzaNYOp7Wdgpk0oXxv6bzxUh50lDm9D5XbRPDJilw" alt="Google Search" id="search_button">
-                    <!-- Regular search button as lower_button -->
-                    <input type="submit" value="Google Search" id="google_search" class="lower_buttons">
-                </form>  
-            <!-- Lower buttons - I'm feeling lucky- doesn't work :( )-->
-                <input type="hidden" name="btnI" value="1"> <!-- the 1 for the btnl is the way to get to the first thing on google search, literally so hard to figure out-->
-                <input type="submit" value="I'm Feeling lucky" name="btnI" id="feeling_lucky" class="lower_buttons">
             </div>
+
+            <!-- Lower buttons - I'm feeling lucky- doesn't work :( ), and lower search button (text one)-->
+            <div class="lower_buttons">
+                <form action="https://www.google.com/search" method="GET">
+                     <input type="hidden" name="btnI" value="1"> <!-- the 1 for the btnl is the way to get to the first thing on google search, literally so hard to figure out-->
+                    <input type="text" name="q">
+                     <input type="submit" value="I'm Feeling lucky" name="btnI" id="feeling_lucky">
+                </form>
+                <form action="https://www.google.com/search" method="GET">
+                    <input type="hidden" name="q">
+                    <input type="submit" value="Google Search">
+                </form>
+               
+            </div>
+
 
             <!-- Basic footer with no links-->
             <footer>

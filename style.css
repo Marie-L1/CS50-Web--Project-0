@@ -88,6 +88,9 @@ body {
     height: 32px;
     border: none;
     cursor: pointer;
+    text-indent: -9999px; /* there was text over my button */
+    overflow: hidden;
+    white-space: nowrap;
     vertical-align: middle;
 }
 
