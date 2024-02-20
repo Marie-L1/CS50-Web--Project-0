@@ -31,18 +31,11 @@
                     <!-- Image Search button on the side -->
                     <input type="image" src="https://play-lh.googleusercontent.com/pY0nNax_PkBoQ5jyqLjF8LA07CzaNYOp7Wdgpk0oXxv6bzxUh50lDm9D5XbRPDJilw" alt="Google Search" id="search_button">
                     <!-- Regular search button as lower_button -->
-                    <input type="submit" value="Google Search" id="google_search">
+                    <input type="submit" value="Google Search" id="google_search" class="lower_buttons">
                 </form>  
-            </div>
-
-            <!-- Lower buttons - I'm feeling lucky -->
-            <div class="lower_buttons">
-                <button action="https://www.google.com/search" method="GET">
-                    <input type="hidden" name="btnI" value="1"> <!-- the 1 for the btnl is the way to get to the first thing on google search, literally so hard to figure out-->
-                    <input type="text" name="q">
-                    <input type="submit" value="Google Search">
-                    <input type="submit" value="I'm Feeling lucky" name="btnI" id="feeling_lucky">
-                </button>
+            <!-- Lower buttons - I'm feeling lucky- doesn't work :( )-->
+                <input type="hidden" name="btnI" value="1"> <!-- the 1 for the btnl is the way to get to the first thing on google search, literally so hard to figure out-->
+                <input type="submit" value="I'm Feeling lucky" name="btnI" id="feeling_lucky" class="lower_buttons">
             </div>
 
             <!-- Basic footer with no links-->
