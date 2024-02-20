@@ -87,6 +87,11 @@ body {
     padding-top: 20px;
  }
 
+#feeling_lucky, #google_search {
+    border: 1px solid #dadce0;
+    color: #757575
+}
+
 #search_button {
     width: 32ps;
     height: 32px;
