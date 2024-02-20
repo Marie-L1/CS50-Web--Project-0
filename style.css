@@ -44,17 +44,6 @@ body {
     text-decoration: underline;
 }
 
-#sign_in {
-    background-color: #4285f4; /* sign-in button colour */
-    color: white;
-    padding: 8px 12px;
-    border-radius: 4px;
-    text-decoration: none;
-    display: inline-block;
-    vertical-align: middle;
-    
-}
-
 /* Google logo and search area */
 .google {
     text-align: center;
@@ -93,8 +82,12 @@ body {
 }
 
 #search_button {
-    width: 32ps;
+    background-image: url("https://play-lh.googleusercontent.com/pY0nNax_PkBoQ5jyqLjF8LA07CzaNYOp7Wdgpk0oXxv6bzxUh50lDm9D5XbRPDJilw");
+    background-size: contain;
+    width: 32px;
     height: 32px;
+    border: none;
+    cursor: pointer;
     vertical-align: middle;
 }
 
