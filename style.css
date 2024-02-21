@@ -56,9 +56,17 @@ body {
     margin: 0 auto;
  }
 
- .form {
-    margin-bottom: 20px;
+ .search_bar {
     text-align: center;
+    margin-top: 20px;;
+ }
+
+ .search_bar form {
+    display: inline-block;
+ }
+
+ #google_search {
+    margin-top: 10px;;
  }
 
  #form_search {
