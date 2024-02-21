@@ -173,6 +173,7 @@ fieldset {
 }
 
 #search_examples {
+    position: absolute;
     display: inline-block;
     margin-top: 20px;
     right: 80px;
@@ -200,4 +201,8 @@ fieldset {
 
 ul {
     list-style: none;
+}
+
+#all_words, #exact_words, #any_words,#none_words {
+    width: 50%;
 }
