@@ -205,4 +205,19 @@ ul {
 
 #all_words, #exact_words, #any_words,#none_words {
     width: 50%;
+    height: 2px;
+    padding: 10px;
+    font-size: 12px;
 }
+
+#find_pages {
+    font-weight: 50%;
+}
+ input[name="text"] {
+    margin-right: 50px;
+}
+
+ #n {
+    display: block;
+    margin-block: 10px;
+ }
