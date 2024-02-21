@@ -167,7 +167,7 @@ label {
 
 fieldset {
     border: none;
-    margin-bottom: 20px, auto;
+    margin-bottom: 20px;
     width: 50%;
     margin-left: 5%;
 }
@@ -205,9 +205,10 @@ ul {
 
 #all_words, #exact_words, #any_words,#none_words {
     width: 50%;
-    height: 2px;
-    padding: 10px;
-    font-size: 12px;
+    height: 5px;
+    padding: 8px;
+    margin-bottom: 20px; 
+    margin-left: 5%;
 }
 
 #find_pages {
@@ -217,7 +218,14 @@ ul {
     margin-right: 50px;
 }
 
- #n {
-    display: block;
-    margin-block: 10px;
+ #n {                       /* the label for the box forms */
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+    width: 40%;
+ }
+
+ #advanced_form input[type="text"] {
+    margin-left: 20px;
  }
