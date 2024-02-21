@@ -148,13 +148,16 @@ h2#advanced_title {
     margin-top: 20px;
     font-weight: normal;
     font-size: 24px;
+    margin-left: 5%;
 }
 
 #advanced_form {
-    margin: 20px 20px 20px 0;
+    margin: 20px auto;
     display: inline-block;
     vertical-align: top;
-    float: left;
+    border: 1px solid #f2f2f2;
+    padding: 8px;
+    width: 100%;
 }
 
 label {
@@ -164,13 +167,16 @@ label {
 
 fieldset {
     border: none;
-    margin-bottom: 20px;
+    margin-bottom: 20px, auto;
+    width: 50%;
+    margin-left: 5%;
 }
 
 #search_examples {
-    position: absolute;
-    top: 170px;
+    display: inline-block;
+    margin-top: 20px;
     right: 80px;
+    margin-right: 5%;
 }
 
 #search_examples #example {
@@ -179,7 +185,7 @@ fieldset {
 }
 
 #example span {
-    font-family: Roboto-thin, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: normal;
     margin-left: 10px;
 }
