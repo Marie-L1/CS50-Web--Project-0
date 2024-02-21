@@ -28,15 +28,14 @@
                 <form action="https://www.google.com/search" autocomplete="off" method="GET" role="search">
                     <label for="form_search"></label>
                     <input type="text" name="q" id="form_search">
-                    <input type="submit" alt="Google Search" value="Google Search" clas="lower_buttons">
+                    <input type="submit" alt="Google Search" value="Google Search" class="lower_buttons">
                 </form>
             </div>
 
-            <!-- Lower buttons - I'm feeling lucky- doesn't work :( - got rid of the button aspect because it doesnt work -->
-            <div class="lower_buttons" action="https://www.google.com/search" method="GET" >
-                <input type="hidden" name="btnI" value="1"> <!-- the 1 for the btnl is the way to get to the first thing on google search, literally so hard to figure out-->
-                <input type="text" name="q">
-                <input type="submit" value="I'm Feeling lucky" name="btnI" id="feeling_lucky">
+            <!-- Lower buttons - I'm feeling lucky- doesn't work :( - redirected -->
+            <div class="lower_buttons">
+                <button onclick="window.location.href='https://www.google.com/search?q=' + document.getElementById('form_search').value + '&btnI=1';">I'm Feeling Lucky</button> 
+                <!--the 1 and btnl is the way to get to the first thing on google search-->
             </div>
 
 

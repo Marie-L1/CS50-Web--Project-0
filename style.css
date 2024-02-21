@@ -73,7 +73,11 @@ body {
  .lower_buttons {
     margin-bottom: 20px;
     text-align: center;
-    padding-top: 20px;
+    padding-top:10px;
+ }
+
+ #lower_buttons button {
+    margin-left: 20px;
  }
 
 #feeling_lucky, #google_search {
