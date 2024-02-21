@@ -82,13 +82,10 @@ body {
 }
 
 #search_button {
-    background-image: url("https://play-lh.googleusercontent.com/pY0nNax_PkBoQ5jyqLjF8LA07CzaNYOp7Wdgpk0oXxv6bzxUh50lDm9D5XbRPDJilw");
-    background-size: contain;
     width: 32px;
     height: 32px;
     border: none;
     cursor: pointer;
-    text-indent: -9999px; /* there was text over my button */
     overflow: hidden;
     white-space: nowrap;
     vertical-align: middle;
