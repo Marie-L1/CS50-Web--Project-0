@@ -81,15 +81,6 @@ body {
     color: #545454
 }
 
-#search_button {
-    width: 32px;
-    height: 32px;
-    border: none;
-    cursor: pointer;
-    overflow: hidden;
-    white-space: nowrap;
-    vertical-align: middle;
-}
 
  /* footer section */
 
