@@ -5,6 +5,7 @@
         <link rel="stylesheet" type="text/css" href="style.css"></link>
         <meta charset="utf-8">
     </head>
+
     <body class="advanced_google">
         <header>
             <!-- the google logo that brings you back to the index.html/search-->
@@ -18,16 +19,18 @@
                 </ul>
             </nav></div>
         </header>
+
         <h2 id="advanced_title">Advanced Search</h2>
         <form method="GET" action="https://www.google.com/search" id="advanced_form">
             <!-- the forms -->
             <fieldset>
-                <label for="all_words">all these words:<input id="all_words" type="text" name="allwords"/></label>
-                <label for="exact_words">this exact word or phase:<input id="exact_words" type="text" name="exactwords"/></label>
-                <label for="any_words">any of these words:<input id="any_words" type="text" name="anywords"/></label>
-                <label for="none_words">none of these words:<input id="none_words" type="text" name="nonewords"/></label>
+                <label for="all_words">all these words:<input id="all_words" type="text" name="all"/></label>
+                <label for="exact_words">this exact word or phase:<input id="exact_words" type="text" name="exact"/></label>
+                <label for="any_words">any of these words:<input id="any_words" type="text" name="any"/></label>
+                <label for="none_words">none of these words:<input id="none_words" type="text" name="none"/></label>
                 <input type="submit" value="Advanced Search" id="advanced_button"/>
             </fieldset>
+
             <!-- form examples as per google's -->
             <div>
                 <ul id="search_examples">
