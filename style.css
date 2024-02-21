@@ -56,13 +56,21 @@ body {
     margin: 0 auto;
  }
 
- .search_bar {
+ .google_search {
     text-align: center;
-    margin-top: 20px;;
+    margin-top: 5px;
+    width: fit-content;
+ }
+
+ .search_bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
  }
 
  .search_bar form {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
  }
 
  #google_search {
