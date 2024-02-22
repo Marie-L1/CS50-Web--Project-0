@@ -175,13 +175,13 @@ fieldset {
 #search_examples {
     position: absolute;
     display: inline-block;
-    margin-top: 20px;
-    right: 80px;
+    top: 250px;
+    right: 120px;
     margin-right: 5%;
 }
 
 #search_examples #example {
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     font-size: 12px;
 }
 
@@ -189,6 +189,7 @@ fieldset {
     font-family: 'Courier New', Courier, monospace;
     font-weight: normal;
     margin-left: 10px;
+    margin-top: 20px;
 }
 
 #advanced_button {
@@ -222,7 +223,7 @@ ul {
     width: 10px;
 }
 
- #n {                       /* the label for the box forms */
+ #n {                    /* the label for the box forms */
     display: block;
     margin-bottom: 10px;
     margin-top: 10px;
