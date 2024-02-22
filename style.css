@@ -174,15 +174,22 @@ fieldset {
 
 #search_examples {
     position: absolute;
-    display: inline-block;
+    display: block;
     top: 250px;
     right: 120px;
     margin-right: 5%;
 }
 
 #search_examples #example {
-    margin-bottom: 50px;
+    margin-bottom:45px;
     font-size: 12px;
+}
+
+/* make the examples go away after a certain size */
+@media (max-width: 1500px) {
+    #search_examples {
+        display: none;
+    }
 }
 
 #example span {
