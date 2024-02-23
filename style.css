@@ -200,9 +200,13 @@ fieldset {
     position: absolute;
 }
 
+#example_container {
+    display: block
+}
+
 /* make the examples go away after a certain size */
 @media (max-width: 1500px) {
-    #search_examples {
+    #example_container {
         display: none;
     }
 }
