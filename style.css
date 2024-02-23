@@ -226,8 +226,8 @@ fieldset {
     text-align: center;
     float: right;
     margin-right: 5%;
-    margin-left: 50%;
-    margin-top: 100px;
+    margin-left: 100px; !important
+    margin-top: -25px;
 }
 
 ul {
