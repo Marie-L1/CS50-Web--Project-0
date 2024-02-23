@@ -167,15 +167,21 @@ label {
 fieldset {
     border: none;
     margin-bottom: 20px;
+    padding: 0;
     width: 50%;
     margin-left: 5%;
+}
+
+#advanced_form input[type="text"] {
+    width: 50%;
+    margin-right: 10%;
 }
 
 #search_examples {
     position: absolute;
     display: block;
     top: 250px;
-    right: 90px;
+    right: 150px;
     margin-right: 5%;
 }
 
