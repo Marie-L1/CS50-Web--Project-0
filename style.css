@@ -157,6 +157,7 @@ h2#advanced_title {
     border: 1px solid #f2f2f2;
     padding: 8px;
     width: 165%;
+    align-content: left;
 }
 
 label {
